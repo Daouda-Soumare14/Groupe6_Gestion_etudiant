@@ -78,6 +78,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
+            this.iconButton10 = new FontAwesome.Sharp.IconButton();
+            this.linkLabel5 = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -104,9 +106,10 @@
             this.pictureBox2.BackColor = System.Drawing.Color.Navy;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(91, 33);
+            this.pictureBox2.Location = new System.Drawing.Point(68, 26);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(131, 124);
+            this.pictureBox2.Size = new System.Drawing.Size(98, 99);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 5;
             this.pictureBox2.TabStop = false;
@@ -115,9 +118,10 @@
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Times New Roman", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.Location = new System.Drawing.Point(159, 268);
+            this.linkLabel1.Location = new System.Drawing.Point(119, 214);
+            this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(166, 49);
+            this.linkLabel1.Size = new System.Drawing.Size(128, 37);
             this.linkLabel1.TabIndex = 8;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Etudiant";
@@ -129,10 +133,11 @@
             this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.UserGraduate;
             this.iconPictureBox1.IconColor = System.Drawing.Color.Navy;
             this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox1.IconSize = 141;
-            this.iconPictureBox1.Location = new System.Drawing.Point(155, 115);
+            this.iconPictureBox1.IconSize = 113;
+            this.iconPictureBox1.Location = new System.Drawing.Point(116, 92);
+            this.iconPictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.iconPictureBox1.Name = "iconPictureBox1";
-            this.iconPictureBox1.Size = new System.Drawing.Size(233, 141);
+            this.iconPictureBox1.Size = new System.Drawing.Size(175, 113);
             this.iconPictureBox1.TabIndex = 6;
             this.iconPictureBox1.TabStop = false;
             // 
@@ -141,9 +146,10 @@
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(39, 97);
+            this.pictureBox1.Location = new System.Drawing.Point(29, 78);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(212, 221);
+            this.pictureBox1.Size = new System.Drawing.Size(160, 178);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -151,6 +157,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.panel1.Controls.Add(this.iconButton10);
+            this.panel1.Controls.Add(this.linkLabel5);
             this.panel1.Controls.Add(this.iconButton8);
             this.panel1.Controls.Add(this.iconButton7);
             this.panel1.Controls.Add(this.iconButton6);
@@ -166,9 +174,10 @@
             this.panel1.Controls.Add(this.linkLabel_etudiant);
             this.panel1.Controls.Add(this.linkLabel_classe);
             this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Location = new System.Drawing.Point(-1, 108);
+            this.panel1.Location = new System.Drawing.Point(-1, 86);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(365, 1323);
+            this.panel1.Size = new System.Drawing.Size(274, 1058);
             this.panel1.TabIndex = 3;
             // 
             // iconButton8
@@ -178,9 +187,10 @@
             this.iconButton8.IconChar = FontAwesome.Sharp.IconChar.House;
             this.iconButton8.IconColor = System.Drawing.Color.White;
             this.iconButton8.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton8.Location = new System.Drawing.Point(7, 997);
+            this.iconButton8.Location = new System.Drawing.Point(5, 798);
+            this.iconButton8.Margin = new System.Windows.Forms.Padding(2);
             this.iconButton8.Name = "iconButton8";
-            this.iconButton8.Size = new System.Drawing.Size(75, 68);
+            this.iconButton8.Size = new System.Drawing.Size(56, 54);
             this.iconButton8.TabIndex = 21;
             this.iconButton8.UseVisualStyleBackColor = false;
             // 
@@ -191,9 +201,10 @@
             this.iconButton7.IconChar = FontAwesome.Sharp.IconChar.SignsPost;
             this.iconButton7.IconColor = System.Drawing.Color.White;
             this.iconButton7.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton7.Location = new System.Drawing.Point(13, 1204);
+            this.iconButton7.Location = new System.Drawing.Point(10, 963);
+            this.iconButton7.Margin = new System.Windows.Forms.Padding(2);
             this.iconButton7.Name = "iconButton7";
-            this.iconButton7.Size = new System.Drawing.Size(75, 68);
+            this.iconButton7.Size = new System.Drawing.Size(56, 54);
             this.iconButton7.TabIndex = 20;
             this.iconButton7.UseVisualStyleBackColor = false;
             // 
@@ -204,9 +215,10 @@
             this.iconButton6.IconChar = FontAwesome.Sharp.IconChar.House;
             this.iconButton6.IconColor = System.Drawing.Color.White;
             this.iconButton6.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton6.Location = new System.Drawing.Point(23, 835);
+            this.iconButton6.Location = new System.Drawing.Point(15, 645);
+            this.iconButton6.Margin = new System.Windows.Forms.Padding(2);
             this.iconButton6.Name = "iconButton6";
-            this.iconButton6.Size = new System.Drawing.Size(75, 68);
+            this.iconButton6.Size = new System.Drawing.Size(56, 54);
             this.iconButton6.TabIndex = 19;
             this.iconButton6.UseVisualStyleBackColor = false;
             // 
@@ -217,9 +229,10 @@
             this.iconButton5.IconChar = FontAwesome.Sharp.IconChar.House;
             this.iconButton5.IconColor = System.Drawing.Color.White;
             this.iconButton5.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton5.Location = new System.Drawing.Point(23, 687);
+            this.iconButton5.Location = new System.Drawing.Point(17, 550);
+            this.iconButton5.Margin = new System.Windows.Forms.Padding(2);
             this.iconButton5.Name = "iconButton5";
-            this.iconButton5.Size = new System.Drawing.Size(75, 68);
+            this.iconButton5.Size = new System.Drawing.Size(56, 54);
             this.iconButton5.TabIndex = 18;
             this.iconButton5.UseVisualStyleBackColor = false;
             // 
@@ -230,9 +243,10 @@
             this.iconButton4.IconChar = FontAwesome.Sharp.IconChar.UserTie;
             this.iconButton4.IconColor = System.Drawing.Color.White;
             this.iconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton4.Location = new System.Drawing.Point(22, 536);
+            this.iconButton4.Location = new System.Drawing.Point(16, 429);
+            this.iconButton4.Margin = new System.Windows.Forms.Padding(2);
             this.iconButton4.Name = "iconButton4";
-            this.iconButton4.Size = new System.Drawing.Size(75, 68);
+            this.iconButton4.Size = new System.Drawing.Size(56, 54);
             this.iconButton4.TabIndex = 17;
             this.iconButton4.UseVisualStyleBackColor = false;
             // 
@@ -243,9 +257,10 @@
             this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.House;
             this.iconButton3.IconColor = System.Drawing.Color.White;
             this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton3.Location = new System.Drawing.Point(23, 387);
+            this.iconButton3.Location = new System.Drawing.Point(17, 310);
+            this.iconButton3.Margin = new System.Windows.Forms.Padding(2);
             this.iconButton3.Name = "iconButton3";
-            this.iconButton3.Size = new System.Drawing.Size(75, 68);
+            this.iconButton3.Size = new System.Drawing.Size(56, 54);
             this.iconButton3.TabIndex = 16;
             this.iconButton3.UseVisualStyleBackColor = false;
             // 
@@ -256,9 +271,10 @@
             this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.UserEdit;
             this.iconButton2.IconColor = System.Drawing.Color.White;
             this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton2.Location = new System.Drawing.Point(20, 253);
+            this.iconButton2.Location = new System.Drawing.Point(15, 202);
+            this.iconButton2.Margin = new System.Windows.Forms.Padding(2);
             this.iconButton2.Name = "iconButton2";
-            this.iconButton2.Size = new System.Drawing.Size(75, 68);
+            this.iconButton2.Size = new System.Drawing.Size(56, 54);
             this.iconButton2.TabIndex = 15;
             this.iconButton2.UseVisualStyleBackColor = false;
             // 
@@ -269,9 +285,10 @@
             this.linkLabel14.Font = new System.Drawing.Font("Times New Roman", 19.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel14.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.linkLabel14.LinkColor = System.Drawing.Color.White;
-            this.linkLabel14.Location = new System.Drawing.Point(103, 835);
+            this.linkLabel14.Location = new System.Drawing.Point(75, 645);
+            this.linkLabel14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel14.Name = "linkLabel14";
-            this.linkLabel14.Size = new System.Drawing.Size(200, 61);
+            this.linkLabel14.Size = new System.Drawing.Size(148, 46);
             this.linkLabel14.TabIndex = 13;
             this.linkLabel14.TabStop = true;
             this.linkLabel14.Text = "Rapport";
@@ -284,9 +301,10 @@
             this.linkLabel_utilisateur.Font = new System.Drawing.Font("Times New Roman", 19.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel_utilisateur.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.linkLabel_utilisateur.LinkColor = System.Drawing.Color.White;
-            this.linkLabel_utilisateur.Location = new System.Drawing.Point(97, 687);
+            this.linkLabel_utilisateur.Location = new System.Drawing.Point(73, 550);
+            this.linkLabel_utilisateur.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel_utilisateur.Name = "linkLabel_utilisateur";
-            this.linkLabel_utilisateur.Size = new System.Drawing.Size(253, 61);
+            this.linkLabel_utilisateur.Size = new System.Drawing.Size(188, 46);
             this.linkLabel_utilisateur.TabIndex = 12;
             this.linkLabel_utilisateur.TabStop = true;
             this.linkLabel_utilisateur.Text = "Utilisateur";
@@ -300,9 +318,10 @@
             this.linkLabel12.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel12.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.linkLabel12.LinkColor = System.Drawing.Color.White;
-            this.linkLabel12.Location = new System.Drawing.Point(80, 1204);
+            this.linkLabel12.Location = new System.Drawing.Point(60, 963);
+            this.linkLabel12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel12.Name = "linkLabel12";
-            this.linkLabel12.Size = new System.Drawing.Size(273, 55);
+            this.linkLabel12.Size = new System.Drawing.Size(203, 41);
             this.linkLabel12.TabIndex = 11;
             this.linkLabel12.TabStop = true;
             this.linkLabel12.Text = "Deconnexion";
@@ -315,9 +334,10 @@
             this.linkLabel_professeur.Font = new System.Drawing.Font("Times New Roman", 19.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel_professeur.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.linkLabel_professeur.LinkColor = System.Drawing.Color.White;
-            this.linkLabel_professeur.Location = new System.Drawing.Point(90, 543);
+            this.linkLabel_professeur.Location = new System.Drawing.Point(68, 434);
+            this.linkLabel_professeur.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel_professeur.Name = "linkLabel_professeur";
-            this.linkLabel_professeur.Size = new System.Drawing.Size(254, 61);
+            this.linkLabel_professeur.Size = new System.Drawing.Size(185, 46);
             this.linkLabel_professeur.TabIndex = 10;
             this.linkLabel_professeur.TabStop = true;
             this.linkLabel_professeur.Text = "Professeur";
@@ -331,9 +351,10 @@
             this.linkLabel10.Font = new System.Drawing.Font("Times New Roman", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel10.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.linkLabel10.LinkColor = System.Drawing.Color.White;
-            this.linkLabel10.Location = new System.Drawing.Point(84, 1005);
+            this.linkLabel10.Location = new System.Drawing.Point(63, 804);
+            this.linkLabel10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel10.Name = "linkLabel10";
-            this.linkLabel10.Size = new System.Drawing.Size(260, 42);
+            this.linkLabel10.Size = new System.Drawing.Size(201, 33);
             this.linkLabel10.TabIndex = 9;
             this.linkLabel10.TabStop = true;
             this.linkLabel10.Text = "Cours / Matieres";
@@ -346,9 +367,10 @@
             this.linkLabel_etudiant.Font = new System.Drawing.Font("Times New Roman", 19.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel_etudiant.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.linkLabel_etudiant.LinkColor = System.Drawing.Color.White;
-            this.linkLabel_etudiant.Location = new System.Drawing.Point(90, 247);
+            this.linkLabel_etudiant.Location = new System.Drawing.Point(68, 198);
+            this.linkLabel_etudiant.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel_etudiant.Name = "linkLabel_etudiant";
-            this.linkLabel_etudiant.Size = new System.Drawing.Size(209, 61);
+            this.linkLabel_etudiant.Size = new System.Drawing.Size(155, 46);
             this.linkLabel_etudiant.TabIndex = 8;
             this.linkLabel_etudiant.TabStop = true;
             this.linkLabel_etudiant.Text = "Etudiant";
@@ -362,9 +384,10 @@
             this.linkLabel_classe.Font = new System.Drawing.Font("Times New Roman", 19.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel_classe.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.linkLabel_classe.LinkColor = System.Drawing.Color.White;
-            this.linkLabel_classe.Location = new System.Drawing.Point(97, 387);
+            this.linkLabel_classe.Location = new System.Drawing.Point(73, 310);
+            this.linkLabel_classe.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel_classe.Name = "linkLabel_classe";
-            this.linkLabel_classe.Size = new System.Drawing.Size(166, 61);
+            this.linkLabel_classe.Size = new System.Drawing.Size(125, 46);
             this.linkLabel_classe.TabIndex = 7;
             this.linkLabel_classe.TabStop = true;
             this.linkLabel_classe.Text = "Classe";
@@ -378,9 +401,10 @@
             this.linkLabel_dashboard.Font = new System.Drawing.Font("Times New Roman", 19.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel_dashboard.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.linkLabel_dashboard.LinkColor = System.Drawing.Color.White;
-            this.linkLabel_dashboard.Location = new System.Drawing.Point(95, 27);
+            this.linkLabel_dashboard.Location = new System.Drawing.Point(71, 22);
+            this.linkLabel_dashboard.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel_dashboard.Name = "linkLabel_dashboard";
-            this.linkLabel_dashboard.Size = new System.Drawing.Size(260, 61);
+            this.linkLabel_dashboard.Size = new System.Drawing.Size(193, 46);
             this.linkLabel_dashboard.TabIndex = 6;
             this.linkLabel_dashboard.TabStop = true;
             this.linkLabel_dashboard.Text = "Dashboard";
@@ -395,8 +419,9 @@
             this.panel2.Controls.Add(this.iconButton9);
             this.panel2.Controls.Add(this.linkLabel_dashboard);
             this.panel2.Location = new System.Drawing.Point(-1, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(2362, 108);
+            this.panel2.Size = new System.Drawing.Size(1772, 86);
             this.panel2.TabIndex = 4;
             // 
             // iconButton1
@@ -406,18 +431,20 @@
             this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.Sistrix;
             this.iconButton1.IconColor = System.Drawing.Color.Black;
             this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton1.Location = new System.Drawing.Point(2198, 23);
+            this.iconButton1.Location = new System.Drawing.Point(1648, 18);
+            this.iconButton1.Margin = new System.Windows.Forms.Padding(2);
             this.iconButton1.Name = "iconButton1";
-            this.iconButton1.Size = new System.Drawing.Size(61, 61);
+            this.iconButton1.Size = new System.Drawing.Size(46, 49);
             this.iconButton1.TabIndex = 22;
             this.iconButton1.UseVisualStyleBackColor = false;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(1779, 23);
+            this.textBox1.Location = new System.Drawing.Point(1334, 18);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(480, 63);
+            this.textBox1.Size = new System.Drawing.Size(361, 51);
             this.textBox1.TabIndex = 23;
             // 
             // iconButton9
@@ -428,9 +455,10 @@
             this.iconButton9.IconColor = System.Drawing.Color.White;
             this.iconButton9.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton9.IconSize = 80;
-            this.iconButton9.Location = new System.Drawing.Point(13, 25);
+            this.iconButton9.Location = new System.Drawing.Point(10, 20);
+            this.iconButton9.Margin = new System.Windows.Forms.Padding(2);
             this.iconButton9.Name = "iconButton9";
-            this.iconButton9.Size = new System.Drawing.Size(75, 68);
+            this.iconButton9.Size = new System.Drawing.Size(56, 54);
             this.iconButton9.TabIndex = 22;
             this.iconButton9.UseVisualStyleBackColor = false;
             // 
@@ -441,9 +469,10 @@
             this.main_form.Controls.Add(this.panel8);
             this.main_form.Controls.Add(this.panel6);
             this.main_form.Controls.Add(this.panel4);
-            this.main_form.Location = new System.Drawing.Point(370, 115);
+            this.main_form.Location = new System.Drawing.Point(278, 92);
+            this.main_form.Margin = new System.Windows.Forms.Padding(2);
             this.main_form.Name = "main_form";
-            this.main_form.Size = new System.Drawing.Size(2000, 1500);
+            this.main_form.Size = new System.Drawing.Size(1500, 1200);
             this.main_form.TabIndex = 5;
             // 
             // panel8
@@ -458,9 +487,10 @@
             this.panel8.Controls.Add(this.iconPictureBox3);
             this.panel8.Controls.Add(this.linkLabel3);
             this.panel8.Controls.Add(this.panel9);
-            this.panel8.Location = new System.Drawing.Point(18, 909);
+            this.panel8.Location = new System.Drawing.Point(14, 727);
+            this.panel8.Margin = new System.Windows.Forms.Padding(2);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(1870, 362);
+            this.panel8.Size = new System.Drawing.Size(1402, 290);
             this.panel8.TabIndex = 2;
             // 
             // iconPictureBox6
@@ -470,10 +500,11 @@
             this.iconPictureBox6.IconChar = FontAwesome.Sharp.IconChar.Film;
             this.iconPictureBox6.IconColor = System.Drawing.Color.Navy;
             this.iconPictureBox6.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox6.IconSize = 141;
-            this.iconPictureBox6.Location = new System.Drawing.Point(155, 133);
+            this.iconPictureBox6.IconSize = 113;
+            this.iconPictureBox6.Location = new System.Drawing.Point(116, 106);
+            this.iconPictureBox6.Margin = new System.Windows.Forms.Padding(2);
             this.iconPictureBox6.Name = "iconPictureBox6";
-            this.iconPictureBox6.Size = new System.Drawing.Size(233, 141);
+            this.iconPictureBox6.Size = new System.Drawing.Size(175, 113);
             this.iconPictureBox6.TabIndex = 15;
             this.iconPictureBox6.TabStop = false;
             // 
@@ -481,9 +512,10 @@
             // 
             this.linkLabel7.AutoSize = true;
             this.linkLabel7.Font = new System.Drawing.Font("Times New Roman", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel7.Location = new System.Drawing.Point(159, 292);
+            this.linkLabel7.Location = new System.Drawing.Point(119, 234);
+            this.linkLabel7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel7.Name = "linkLabel7";
-            this.linkLabel7.Size = new System.Drawing.Size(161, 49);
+            this.linkLabel7.Size = new System.Drawing.Size(122, 37);
             this.linkLabel7.TabIndex = 16;
             this.linkLabel7.TabStop = true;
             this.linkLabel7.Text = "Rapport";
@@ -495,10 +527,11 @@
             this.iconPictureBox5.IconChar = FontAwesome.Sharp.IconChar.UserGraduate;
             this.iconPictureBox5.IconColor = System.Drawing.Color.Navy;
             this.iconPictureBox5.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox5.IconSize = 141;
-            this.iconPictureBox5.Location = new System.Drawing.Point(597, 133);
+            this.iconPictureBox5.IconSize = 113;
+            this.iconPictureBox5.Location = new System.Drawing.Point(448, 106);
+            this.iconPictureBox5.Margin = new System.Windows.Forms.Padding(2);
             this.iconPictureBox5.Name = "iconPictureBox5";
-            this.iconPictureBox5.Size = new System.Drawing.Size(233, 141);
+            this.iconPictureBox5.Size = new System.Drawing.Size(175, 113);
             this.iconPictureBox5.TabIndex = 13;
             this.iconPictureBox5.TabStop = false;
             // 
@@ -506,9 +539,10 @@
             // 
             this.linkLabel6.AutoSize = true;
             this.linkLabel6.Font = new System.Drawing.Font("Times New Roman", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel6.Location = new System.Drawing.Point(601, 292);
+            this.linkLabel6.Location = new System.Drawing.Point(451, 234);
+            this.linkLabel6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel6.Name = "linkLabel6";
-            this.linkLabel6.Size = new System.Drawing.Size(166, 49);
+            this.linkLabel6.Size = new System.Drawing.Size(128, 37);
             this.linkLabel6.TabIndex = 14;
             this.linkLabel6.TabStop = true;
             this.linkLabel6.Text = "Etudiant";
@@ -520,10 +554,11 @@
             this.iconPictureBox4.IconChar = FontAwesome.Sharp.IconChar.UserGraduate;
             this.iconPictureBox4.IconColor = System.Drawing.Color.Navy;
             this.iconPictureBox4.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox4.IconSize = 141;
-            this.iconPictureBox4.Location = new System.Drawing.Point(1497, 133);
+            this.iconPictureBox4.IconSize = 113;
+            this.iconPictureBox4.Location = new System.Drawing.Point(1123, 106);
+            this.iconPictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.iconPictureBox4.Name = "iconPictureBox4";
-            this.iconPictureBox4.Size = new System.Drawing.Size(233, 141);
+            this.iconPictureBox4.Size = new System.Drawing.Size(175, 113);
             this.iconPictureBox4.TabIndex = 11;
             this.iconPictureBox4.TabStop = false;
             // 
@@ -531,9 +566,10 @@
             // 
             this.linkLabel4.AutoSize = true;
             this.linkLabel4.Font = new System.Drawing.Font("Times New Roman", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel4.Location = new System.Drawing.Point(1501, 292);
+            this.linkLabel4.Location = new System.Drawing.Point(1126, 234);
+            this.linkLabel4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel4.Name = "linkLabel4";
-            this.linkLabel4.Size = new System.Drawing.Size(166, 49);
+            this.linkLabel4.Size = new System.Drawing.Size(128, 37);
             this.linkLabel4.TabIndex = 12;
             this.linkLabel4.TabStop = true;
             this.linkLabel4.Text = "Etudiant";
@@ -545,10 +581,11 @@
             this.iconPictureBox3.IconChar = FontAwesome.Sharp.IconChar.UserGraduate;
             this.iconPictureBox3.IconColor = System.Drawing.Color.Navy;
             this.iconPictureBox3.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox3.IconSize = 141;
-            this.iconPictureBox3.Location = new System.Drawing.Point(1031, 133);
+            this.iconPictureBox3.IconSize = 113;
+            this.iconPictureBox3.Location = new System.Drawing.Point(773, 106);
+            this.iconPictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.iconPictureBox3.Name = "iconPictureBox3";
-            this.iconPictureBox3.Size = new System.Drawing.Size(233, 141);
+            this.iconPictureBox3.Size = new System.Drawing.Size(175, 113);
             this.iconPictureBox3.TabIndex = 9;
             this.iconPictureBox3.TabStop = false;
             // 
@@ -556,9 +593,10 @@
             // 
             this.linkLabel3.AutoSize = true;
             this.linkLabel3.Font = new System.Drawing.Font("Times New Roman", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel3.Location = new System.Drawing.Point(1035, 292);
+            this.linkLabel3.Location = new System.Drawing.Point(776, 234);
+            this.linkLabel3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(166, 49);
+            this.linkLabel3.Size = new System.Drawing.Size(128, 37);
             this.linkLabel3.TabIndex = 10;
             this.linkLabel3.TabStop = true;
             this.linkLabel3.Text = "Etudiant";
@@ -567,9 +605,10 @@
             // 
             this.panel9.BackColor = System.Drawing.Color.Silver;
             this.panel9.Controls.Add(this.linkLabel16);
-            this.panel9.Location = new System.Drawing.Point(3, 3);
+            this.panel9.Location = new System.Drawing.Point(2, 2);
+            this.panel9.Margin = new System.Windows.Forms.Padding(2);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(2100, 77);
+            this.panel9.Size = new System.Drawing.Size(1575, 62);
             this.panel9.TabIndex = 1;
             // 
             // linkLabel16
@@ -578,9 +617,10 @@
             this.linkLabel16.Font = new System.Drawing.Font("Times New Roman", 19.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel16.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.linkLabel16.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel16.Location = new System.Drawing.Point(5, 6);
+            this.linkLabel16.Location = new System.Drawing.Point(4, 5);
+            this.linkLabel16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel16.Name = "linkLabel16";
-            this.linkLabel16.Size = new System.Drawing.Size(429, 61);
+            this.linkLabel16.Size = new System.Drawing.Size(319, 46);
             this.linkLabel16.TabIndex = 12;
             this.linkLabel16.TabStop = true;
             this.linkLabel16.Text = "Navigation Rapide";
@@ -598,9 +638,10 @@
             this.panel6.Controls.Add(this.panel7);
             this.panel6.Controls.Add(this.iconPictureBox1);
             this.panel6.Controls.Add(this.linkLabel1);
-            this.panel6.Location = new System.Drawing.Point(18, 467);
+            this.panel6.Location = new System.Drawing.Point(14, 374);
+            this.panel6.Margin = new System.Windows.Forms.Padding(2);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(1870, 362);
+            this.panel6.Size = new System.Drawing.Size(1402, 290);
             this.panel6.TabIndex = 2;
             // 
             // iconPictureBox8
@@ -610,10 +651,11 @@
             this.iconPictureBox8.IconChar = FontAwesome.Sharp.IconChar.UserTie;
             this.iconPictureBox8.IconColor = System.Drawing.Color.Navy;
             this.iconPictureBox8.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox8.IconSize = 141;
-            this.iconPictureBox8.Location = new System.Drawing.Point(1031, 115);
+            this.iconPictureBox8.IconSize = 113;
+            this.iconPictureBox8.Location = new System.Drawing.Point(773, 92);
+            this.iconPictureBox8.Margin = new System.Windows.Forms.Padding(2);
             this.iconPictureBox8.Name = "iconPictureBox8";
-            this.iconPictureBox8.Size = new System.Drawing.Size(233, 141);
+            this.iconPictureBox8.Size = new System.Drawing.Size(175, 113);
             this.iconPictureBox8.TabIndex = 13;
             this.iconPictureBox8.TabStop = false;
             // 
@@ -621,9 +663,10 @@
             // 
             this.linkLabel18.AutoSize = true;
             this.linkLabel18.Font = new System.Drawing.Font("Times New Roman", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel18.Location = new System.Drawing.Point(1035, 268);
+            this.linkLabel18.Location = new System.Drawing.Point(776, 214);
+            this.linkLabel18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel18.Name = "linkLabel18";
-            this.linkLabel18.Size = new System.Drawing.Size(199, 49);
+            this.linkLabel18.Size = new System.Drawing.Size(152, 37);
             this.linkLabel18.TabIndex = 14;
             this.linkLabel18.TabStop = true;
             this.linkLabel18.Text = "Professeur";
@@ -635,10 +678,11 @@
             this.iconPictureBox7.IconChar = FontAwesome.Sharp.IconChar.BookBookmark;
             this.iconPictureBox7.IconColor = System.Drawing.Color.Navy;
             this.iconPictureBox7.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox7.IconSize = 141;
-            this.iconPictureBox7.Location = new System.Drawing.Point(597, 115);
+            this.iconPictureBox7.IconSize = 113;
+            this.iconPictureBox7.Location = new System.Drawing.Point(448, 92);
+            this.iconPictureBox7.Margin = new System.Windows.Forms.Padding(2);
             this.iconPictureBox7.Name = "iconPictureBox7";
-            this.iconPictureBox7.Size = new System.Drawing.Size(233, 141);
+            this.iconPictureBox7.Size = new System.Drawing.Size(175, 113);
             this.iconPictureBox7.TabIndex = 11;
             this.iconPictureBox7.TabStop = false;
             // 
@@ -646,9 +690,10 @@
             // 
             this.linkLabel17.AutoSize = true;
             this.linkLabel17.Font = new System.Drawing.Font("Times New Roman", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel17.Location = new System.Drawing.Point(601, 268);
+            this.linkLabel17.Location = new System.Drawing.Point(451, 214);
+            this.linkLabel17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel17.Name = "linkLabel17";
-            this.linkLabel17.Size = new System.Drawing.Size(134, 49);
+            this.linkLabel17.Size = new System.Drawing.Size(101, 37);
             this.linkLabel17.TabIndex = 12;
             this.linkLabel17.TabStop = true;
             this.linkLabel17.Text = "Classe";
@@ -660,10 +705,11 @@
             this.iconPictureBox2.IconChar = FontAwesome.Sharp.IconChar.UserGroup;
             this.iconPictureBox2.IconColor = System.Drawing.Color.Navy;
             this.iconPictureBox2.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox2.IconSize = 141;
-            this.iconPictureBox2.Location = new System.Drawing.Point(1497, 115);
+            this.iconPictureBox2.IconSize = 113;
+            this.iconPictureBox2.Location = new System.Drawing.Point(1123, 92);
+            this.iconPictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.iconPictureBox2.Name = "iconPictureBox2";
-            this.iconPictureBox2.Size = new System.Drawing.Size(233, 141);
+            this.iconPictureBox2.Size = new System.Drawing.Size(175, 113);
             this.iconPictureBox2.TabIndex = 9;
             this.iconPictureBox2.TabStop = false;
             // 
@@ -671,9 +717,10 @@
             // 
             this.linkLabel2.AutoSize = true;
             this.linkLabel2.Font = new System.Drawing.Font("Times New Roman", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel2.Location = new System.Drawing.Point(1501, 268);
+            this.linkLabel2.Location = new System.Drawing.Point(1126, 214);
+            this.linkLabel2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(201, 49);
+            this.linkLabel2.Size = new System.Drawing.Size(154, 37);
             this.linkLabel2.TabIndex = 10;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "Utilisateur";
@@ -682,9 +729,10 @@
             // 
             this.panel7.BackColor = System.Drawing.Color.Silver;
             this.panel7.Controls.Add(this.linkLabel15);
-            this.panel7.Location = new System.Drawing.Point(3, 3);
+            this.panel7.Location = new System.Drawing.Point(2, 2);
+            this.panel7.Margin = new System.Windows.Forms.Padding(2);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(2280, 77);
+            this.panel7.Size = new System.Drawing.Size(1710, 62);
             this.panel7.TabIndex = 1;
             // 
             // linkLabel15
@@ -693,9 +741,10 @@
             this.linkLabel15.Font = new System.Drawing.Font("Times New Roman", 19.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel15.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.linkLabel15.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel15.Location = new System.Drawing.Point(5, 7);
+            this.linkLabel15.Location = new System.Drawing.Point(4, 6);
+            this.linkLabel15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel15.Name = "linkLabel15";
-            this.linkLabel15.Size = new System.Drawing.Size(429, 61);
+            this.linkLabel15.Size = new System.Drawing.Size(319, 46);
             this.linkLabel15.TabIndex = 11;
             this.linkLabel15.TabStop = true;
             this.linkLabel15.Text = "Navigation Rapide";
@@ -707,18 +756,20 @@
             this.panel4.Controls.Add(this.label2);
             this.panel4.Controls.Add(this.panel5);
             this.panel4.Controls.Add(this.pictureBox1);
-            this.panel4.Location = new System.Drawing.Point(18, 23);
+            this.panel4.Location = new System.Drawing.Point(14, 18);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1870, 362);
+            this.panel4.Size = new System.Drawing.Size(1402, 290);
             this.panel4.TabIndex = 0;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 22.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(283, 181);
+            this.label2.Location = new System.Drawing.Point(212, 145);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(578, 67);
+            this.label2.Size = new System.Drawing.Size(440, 52);
             this.label2.TabIndex = 3;
             this.label2.Text = "Gestion des Etudiants";
             // 
@@ -726,32 +777,67 @@
             // 
             this.panel5.BackColor = System.Drawing.Color.Silver;
             this.panel5.Controls.Add(this.label3);
-            this.panel5.Location = new System.Drawing.Point(3, 3);
+            this.panel5.Location = new System.Drawing.Point(2, 2);
+            this.panel5.Margin = new System.Windows.Forms.Padding(2);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(2100, 77);
+            this.panel5.Size = new System.Drawing.Size(1575, 62);
             this.panel5.TabIndex = 1;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 13.875F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(36, 16);
+            this.label3.Location = new System.Drawing.Point(27, 13);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(181, 43);
+            this.label3.Size = new System.Drawing.Size(134, 32);
             this.label3.TabIndex = 0;
             this.label3.Text = "Bienvenue";
             // 
+            // iconButton10
+            // 
+            this.iconButton10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.iconButton10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton10.IconChar = FontAwesome.Sharp.IconChar.House;
+            this.iconButton10.IconColor = System.Drawing.Color.White;
+            this.iconButton10.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton10.Location = new System.Drawing.Point(31, 491);
+            this.iconButton10.Margin = new System.Windows.Forms.Padding(2);
+            this.iconButton10.Name = "iconButton10";
+            this.iconButton10.Size = new System.Drawing.Size(56, 54);
+            this.iconButton10.TabIndex = 23;
+            this.iconButton10.UseVisualStyleBackColor = false;
+            this.iconButton10.Click += new System.EventHandler(this.iconButton10_Click);
+            // 
+            // linkLabel5
+            // 
+            this.linkLabel5.ActiveLinkColor = System.Drawing.Color.Blue;
+            this.linkLabel5.AutoSize = true;
+            this.linkLabel5.Font = new System.Drawing.Font("Times New Roman", 19.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel5.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.linkLabel5.LinkColor = System.Drawing.Color.White;
+            this.linkLabel5.Location = new System.Drawing.Point(91, 491);
+            this.linkLabel5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.linkLabel5.Name = "linkLabel5";
+            this.linkLabel5.Size = new System.Drawing.Size(143, 46);
+            this.linkLabel5.TabIndex = 22;
+            this.linkLabel5.TabStop = true;
+            this.linkLabel5.Text = "Matiere";
+            this.linkLabel5.VisitedLinkColor = System.Drawing.Color.White;
+            this.linkLabel5.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel5_LinkClicked);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(2274, 1429);
+            this.ClientSize = new System.Drawing.Size(1924, 1050);
             this.Controls.Add(this.main_form);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(2300, 1500);
-            this.MinimumSize = new System.Drawing.Size(2300, 1500);
+            this.MinimumSize = new System.Drawing.Size(1918, 1006);
             this.Name = "Form1";
             this.Text = "Dashboard";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -835,6 +921,8 @@
         private FontAwesome.Sharp.IconButton iconButton9;
         private FontAwesome.Sharp.IconButton iconButton1;
         private System.Windows.Forms.TextBox textBox1;
+        private FontAwesome.Sharp.IconButton iconButton10;
+        private System.Windows.Forms.LinkLabel linkLabel5;
     }
 }
 
