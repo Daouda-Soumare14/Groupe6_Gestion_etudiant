@@ -110,5 +110,15 @@ namespace Projet_Exament_Gestion_Etudiant
         {
             OpenChildForm(new FormUtilisateur());
         }
+
+        private void linkLabel5_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            OpenChildForm(new FormMatiere());
+        }
+
+        private void iconButton10_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

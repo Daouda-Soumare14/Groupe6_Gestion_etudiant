@@ -50,12 +50,13 @@
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridView_etudiant.DefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView_etudiant.GridColor = System.Drawing.Color.White;
-            this.dataGridView_etudiant.Location = new System.Drawing.Point(-4, 320);
+            this.dataGridView_etudiant.Location = new System.Drawing.Point(-3, 256);
+            this.dataGridView_etudiant.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView_etudiant.Name = "dataGridView_etudiant";
             this.dataGridView_etudiant.ReadOnly = true;
             this.dataGridView_etudiant.RowHeadersWidth = 82;
             this.dataGridView_etudiant.RowTemplate.Height = 33;
-            this.dataGridView_etudiant.Size = new System.Drawing.Size(1978, 1107);
+            this.dataGridView_etudiant.Size = new System.Drawing.Size(1484, 886);
             this.dataGridView_etudiant.TabIndex = 0;
             // 
             // btn_add
@@ -65,9 +66,10 @@
             this.btn_add.IconColor = System.Drawing.Color.Navy;
             this.btn_add.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_add.IconSize = 70;
-            this.btn_add.Location = new System.Drawing.Point(1613, 169);
+            this.btn_add.Location = new System.Drawing.Point(1210, 135);
+            this.btn_add.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_add.Name = "btn_add";
-            this.btn_add.Size = new System.Drawing.Size(75, 75);
+            this.btn_add.Size = new System.Drawing.Size(56, 60);
             this.btn_add.TabIndex = 1;
             this.btn_add.UseVisualStyleBackColor = false;
             this.btn_add.Click += new System.EventHandler(this.btn_add_Click);
@@ -79,21 +81,24 @@
             this.btn_edit.IconColor = System.Drawing.Color.Navy;
             this.btn_edit.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_edit.IconSize = 70;
-            this.btn_edit.Location = new System.Drawing.Point(1728, 169);
+            this.btn_edit.Location = new System.Drawing.Point(1296, 135);
+            this.btn_edit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_edit.Name = "btn_edit";
-            this.btn_edit.Size = new System.Drawing.Size(75, 75);
+            this.btn_edit.Size = new System.Drawing.Size(56, 60);
             this.btn_edit.TabIndex = 2;
             this.btn_edit.UseVisualStyleBackColor = false;
             this.btn_edit.Click += new System.EventHandler(this.btn_edit_Click);
             // 
             // FormEtudiant
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1974, 1429);
+            this.ClientSize = new System.Drawing.Size(1443, 840);
             this.Controls.Add(this.btn_edit);
             this.Controls.Add(this.btn_add);
             this.Controls.Add(this.dataGridView_etudiant);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MaximumSize = new System.Drawing.Size(2300, 1500);
             this.Name = "FormEtudiant";
             this.Text = "FormEtudiant";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_etudiant)).EndInit();

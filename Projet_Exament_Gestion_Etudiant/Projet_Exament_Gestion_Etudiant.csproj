@@ -86,17 +86,53 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="context\GestionEtudiantContext.cs" />
+    <Compile Include="views\ajoutModif\Form1SaveOTPCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\ajoutModif\Form1SaveOTPCode.Designer.cs">
+      <DependentUpon>Form1SaveOTPCode.cs</DependentUpon>
+    </Compile>
     <Compile Include="views\ajoutModif\FormSaveClasse.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="views\ajoutModif\FormSaveClasse.Designer.cs">
       <DependentUpon>FormSaveClasse.cs</DependentUpon>
     </Compile>
+    <Compile Include="views\ajoutModif\FormSaveCours.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\ajoutModif\FormSaveCours.Designer.cs">
+      <DependentUpon>FormSaveCours.cs</DependentUpon>
+    </Compile>
     <Compile Include="views\ajoutModif\FormSaveEtudiant.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="views\ajoutModif\FormSaveEtudiant.Designer.cs">
       <DependentUpon>FormSaveEtudiant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\ajoutModif\FormSaveMatiere.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\ajoutModif\FormSaveMatiere.Designer.cs">
+      <DependentUpon>FormSaveMatiere.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\ajoutModif\FormSaveNote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\ajoutModif\FormSaveNote.Designer.cs">
+      <DependentUpon>FormSaveNote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\ajoutModif\FormSaveProffeseur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\ajoutModif\FormSaveProffeseur.Designer.cs">
+      <DependentUpon>FormSaveProffeseur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\ajoutModif\FormSaveUtilisateur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\ajoutModif\FormSaveUtilisateur.Designer.cs">
+      <DependentUpon>FormSaveUtilisateur.cs</DependentUpon>
     </Compile>
     <Compile Include="views\Form1.cs">
       <SubType>Form</SubType>
@@ -141,6 +177,12 @@
     <Compile Include="views\FormEtudiant.Designer.cs">
       <DependentUpon>FormEtudiant.cs</DependentUpon>
     </Compile>
+    <Compile Include="views\FormMatiere.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\FormMatiere.Designer.cs">
+      <DependentUpon>FormMatiere.cs</DependentUpon>
+    </Compile>
     <Compile Include="views\FormProfesseur.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -165,11 +207,29 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="views\ajoutModif\Form1SaveOTPCode.resx">
+      <DependentUpon>Form1SaveOTPCode.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="views\ajoutModif\FormSaveClasse.resx">
       <DependentUpon>FormSaveClasse.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="views\ajoutModif\FormSaveCours.resx">
+      <DependentUpon>FormSaveCours.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="views\ajoutModif\FormSaveEtudiant.resx">
       <DependentUpon>FormSaveEtudiant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\ajoutModif\FormSaveMatiere.resx">
+      <DependentUpon>FormSaveMatiere.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\ajoutModif\FormSaveNote.resx">
+      <DependentUpon>FormSaveNote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\ajoutModif\FormSaveProffeseur.resx">
+      <DependentUpon>FormSaveProffeseur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\ajoutModif\FormSaveUtilisateur.resx">
+      <DependentUpon>FormSaveUtilisateur.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="views\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -182,6 +242,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="views\FormEtudiant.resx">
       <DependentUpon>FormEtudiant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\FormMatiere.resx">
+      <DependentUpon>FormMatiere.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="views\FormProfesseur.resx">
       <DependentUpon>FormProfesseur.cs</DependentUpon>
